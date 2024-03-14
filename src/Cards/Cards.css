@@ -1,0 +1,11 @@
+.imgchange{
+    max-width: 150px;
+    height:150px;
+    margin:auto;
+}
+
+.singleline{
+    overflow: hidden; /* Hide any content that overflows */
+    white-space: nowrap; /* Prevent content from wrapping */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowed content */
+}

@@ -1,0 +1,49 @@
+.menu{
+ text-align: right;
+ background-color: aqua;
+}
+.menu>li{
+    list-style-type: none;
+    display: inline;
+   font-size: 20px;
+    margin:25px;
+    letter-spacing: 5px;
+    line-height: 45px;
+    cursor: pointer;
+}
+.mobile-btn{
+    position: absolute;
+    right: 9px;
+
+    top: 58px;
+    
+
+}
+.mobile-btn>span {
+    display: block;
+    border: 2px solid black;
+    width: 35px;
+    margin: 5px;
+}
+.mobile-menu {
+    position: absolute;
+    border: 1px solid black;
+    margin: 0;
+  transition: left 1s;
+    width: 150px;
+    margin-top: 11px;
+    background-color: bisque;
+    cursor: pointer;
+}
+.mobile-menu>li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.menuItem{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+
+}
